@@ -1,0 +1,153 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.Title {
+  font-family: 'Arial', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: white;
+  padding-bottom: 3px;
+  margin-bottom: 2px;
+}
+
+.titleContainer {
+  margin-bottom: 6px;
+  float: left;
+}
+
+.titleDecoration { /* Small underline beneath page title */
+  border-bottom: 1px solid white;
+  width: 6%;
+  float: left;
+}
+
+.naviLink {
+  font: 12px Arial;
+  text-decoration: none;
+  color: gray;
+  padding: 25px 6px 2px 6px;
+  margin: 0px 4px 8px 0px;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px solid rgba(255,255,255,0);
+}
+
+.naviLink:hover {
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+a.naviLink:hover {
+  color: white;
+}
+
+
+a.naviLink:visited {
+  text-decoration: none;
+}
+
+a.naviLink:focus {
+  color: gray;
+}
+
+.top {
+  padding-bottom: -1px;
+}
+
+.Headers { /* Headers is a container */
+  border-bottom: 1px solid white;
+  text-align: right;
+  padding-bottom: -1px;
+  color: white;
+  width: 88%;
+  float: right;
+}
+
+
+.Headers h3 { /* This is the text inside of the container */
+  display: inline-block;
+  float: left;
+  text-align: left;
+  position: relative;
+  left: 265px;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  padding-bottom: -1px;
+  padding-left: 0px;
+  padding-right: 20px;
+  margin-right: 5px;
+  margin-bottom: 6px;
+}
+
+.row {
+  border-bottom: 1px solid white;
+  text-align: right;
+  padding-bottom: 1px;
+  color: white;
+  float: right;
+  width: 88%;
+}
+
+.rowImg { /* Image container */
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+  padding-top: 12px;
+  padding-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: auto;
+  float: left;
+}
+
+.rowLogo {
+  height: 75px;
+  width: auto;
+  position: relative;
+}
+
+
+.columnContent {
+  display: inline-block;
+  float: left;
+  padding-left: 6px;
+  margin: 3px 0px;
+  text-align: left;
+  width: 320px;
+  height: auto;
+  font-family: Arial, sans-serif;
+  /*border: 2px dotted red; /* Temporary */
+}
+
+.columnContent p {
+  /*border: 2px dotted red; /* Temporary */
+  margin-top: 6px;
+}
+
+.header {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+
+h3.header {
+
+}
+
+body {
+  background-image: url("../app/assets/images/VibesBackgroundColor.png");
+  background-repeat: repeat;
+  background-color: #133CC2;
+}
+
+#backgroundLogo {
+  width: 5%;
+  height: 5%;
+  float: left;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
